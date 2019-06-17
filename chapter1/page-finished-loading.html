@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../jquery-3.4.1.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <p>First Jquery Page</p>
+  <script>
+    $('document').ready(function() {
+      $('body').append('<h1>First Jquery append</h1>')
+    });
+    const Message = 'First JQuery to ES6 Conversion';
+    const Markup = `<h1>${Message}<h1>`;
+    document.querySelector('body').innerHTML = Markup
+  </script>
+</body>
+</html>
